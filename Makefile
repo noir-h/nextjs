@@ -11,6 +11,7 @@ create-project:
 	@make nextjs-install
 	docker compose exec app npm install -D tailwindcss postcss autoprefixer
 	docker compose exec app npx tailwindcss init -p
+	docker compose exec app npm install node-fetch
 stop:
 	docker compose stop
 down:
