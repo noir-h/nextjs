@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 //自動で画像の圧縮等をしてくれるcomponet
 import Image from 'next/image'
-import { getAllPostsData } from '../lib/posts'
+// import { getAllPostsData } from '../lib/posts'
 
 export default function Contact() {
   return (
